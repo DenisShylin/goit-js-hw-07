@@ -68,7 +68,7 @@ ul {
 
 /* -----------task-2-------------- */
 
-.container {
+.container-task-2 {
   width: 1440px;
   height: 848px;
   padding-top: 100px;
@@ -98,4 +98,37 @@ ul {
   height: 200px;
   object-fit: cover;
   display: block;
+}
+
+
+/* ------------task-3--------------- */
+
+
+.container-task-3 {
+  width: 408px;
+  height: 136px;
+  background-color: #ffffff;
+  White box background border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+  width: 360px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0px;
+  text-align: start;
+
 }
