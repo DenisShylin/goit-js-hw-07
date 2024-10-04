@@ -105,6 +105,7 @@ ul {
 
 
 .container-task-3 {
+  margin: 0 auto;
   width: 408px;
   height: 136px;
   background-color: #ffffff;
@@ -131,4 +132,172 @@ h1 {
   margin: 0px;
   text-align: start;
 
+}
+
+/* --------task-4--------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.login-form {
+  width: 408px;
+  padding: 20px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.login-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.login-form button {
+  width: 86px;
+  padding: 10px;
+  background-color: #4a80f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #3c6fd1;
+}
+
+/* --------task-5--------- */
+
+.widget {
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+  width: 300px;
+}
+
+.color {
+  font-weight: bold;
+}
+
+button.change-color {
+  background-color: #4a67f9;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button.change-color:hover {
+  background-color: #3957c0;
+}
+
+/* ---------task-6---------------- */
+
+
+#controls {
+  margin: 0 auto;
+  width: 482px;
+  height: 132px;
+  background-color: #f5f7fa;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+#controls input {
+
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+#controls button[data-create] {
+  width: 120px;
+  padding: 10px 20px;
+  background-color: #3370ff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#controls button[data-destroy] {
+  width: 120px;
+  padding: 10px 20px;
+  background-color: #ff5a50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#controls button[data-create]:hover {
+  background-color: #2851b8;
+}
+
+#controls button[data-destroy]:hover {
+  background-color: #e04840;
+}
+
+/* Контейнер для створених елементів */
+#boxes {
+  margin: 0 auto;
+  display: flex;
+  width: 482px;
+  height: 132px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Стилі для динамічних квадратів */
+#boxes div {
+  background-color: #00bcd4;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
